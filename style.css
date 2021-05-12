@@ -1,0 +1,83 @@
+/* fontawesome */
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+/* google web fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
+/* reset css */
+*{
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* default css */
+body{
+    font-family: 'Montserrat', sans-serif;
+    color:#222;
+    font-size: 15px;
+    margin:0;
+    height: 100vh;
+    background-color: #fff;
+}
+
+/* entire layout */
+.cd-section{
+    height: 100vh;
+}
+.cd-section > div{
+    height: 100%;
+    position: relative;
+}
+.content{
+    background-color: #ddd;
+    position: absolute; /* position 속성이 적용되면 다른 파일이라도 상속된다. */
+    width: calc(100% - 40px);
+    height: calc(100% - 80px);
+    left: 20px;
+    bottom: 20px;
+    overflow:hidden;
+}
+
+/* header */
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    z-index: 1;
+}
+.gnb-inner{
+    width: calc(100% - 40px);
+    margin:auto;
+    height: 60px;
+    line-height: 60px;
+}
+.logo{
+    float:left;
+    padding-top:5px;
+}
+.gnb{
+    float:right;
+}
+.menu{
+    display:none;
+}
+.menu a{
+
+}
+.slogan{
+    font-style: italic;
+    font-size: 16px;
+}   
+.trigger{
+    display:none;
+}
+
