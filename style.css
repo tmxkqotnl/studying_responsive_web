@@ -81,3 +81,44 @@ header{
     display:none;
 }
 
+/* ################### Section ################### */
+
+/* section : awards */
+.awards-inner{
+  border:1px solid #ddd;
+  height: 100%;
+}
+.awards-inner > div{
+  float:left;
+  width: 50%;
+  height: 100%;
+  position:relative;
+}
+.about-awards{
+  background-color: #1a1f24;
+}
+.about-content{
+  text-align: center;
+  color:#fff;
+  position:absolute;
+  left:50%;
+  top:50%;
+  width: 70%;
+  transform: translate(-50%,-50%);
+}
+.about-content hr{
+
+}
+.about-content a{
+  
+}
+.image-awards{
+  background-color: #fff;
+}
+.image-awards img{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  width: 80%;
+}
