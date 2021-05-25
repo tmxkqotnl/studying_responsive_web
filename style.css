@@ -260,3 +260,110 @@ hr.bar{ /* hr은 테두리가 존재한다. */
 .service > p{
 
 }
+
+        /* section : location */
+.contact-inner{
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+.contact-feature{
+  left:50%;
+  top:50%;
+  transform:translate(-50%,-50%);
+  width: 70%;
+  position:absolute;
+}
+.contact-feature > div{
+  width: 50%;
+  float:left;
+  padding:20px;
+}
+.contact-form{
+
+}
+.contact-form > h3{
+  font-size: 30px;
+  font-weight: normal;
+  margin:0;
+}
+.contact-form > h3 > b{
+  
+}
+.send-box{
+
+}
+.send-box > label{
+  font-size: 18px;
+  display:block;
+  margin:10px 0;
+  margin-top:20px;
+}
+.send-box > label > span{
+  font-weight: normal;
+  color:crimson;
+}
+.send-box > input[type = email],
+.send-box > input[type = text],
+.send-box > textarea{
+  display:block;
+  border:1px solid #ccc;
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+  outline:none;
+  transition:0.3s;
+}
+
+.send-box > input[type = email]:hover,
+.send-box > input[type = text]:hover,
+.send-box > textarea:hover,
+.send-box > input[type = email]:focus,
+.send-box > input[type = text]:focus,
+.send-box > textarea:focus{
+  border:1px solid #1db1f0;
+  box-shadow: 0 0 5px #0088cc;
+}
+.send-box > input[type = email]:focus,
+.send-box > input[type = text]:focus,
+.send-box > textarea:focus{
+  background-color: rgba(238, 238, 238, 0.712);
+}
+.send-box > button{ /* inline-block */
+  background-color: #0088cc;
+  color:white;
+  text-transform: uppercase;
+  padding:12px 20px;
+  font-weight: bold;
+  border:none;
+  border-radius: 5px;
+  cursor:pointer;
+  margin-top:10px;
+}
+
+.contact-info{
+
+}
+
+.contact-info > h4{
+  font-weight: normal;
+  font-size: 20px;
+  margin:0;
+  margin-top:20px;
+}
+.contact-info > b{
+
+}
+.contact-info > ul{
+  padding:0;
+  list-style: none;
+}
+.contact-info > ul > li{
+  line-height: 2em;
+}
+.contact-info > ul > li:last-child{
+  color:#0088cc;
+}
+.contact-info > p{
+  line-height: 1.5em;
+}
