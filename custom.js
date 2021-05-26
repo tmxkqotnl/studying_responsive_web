@@ -23,4 +23,12 @@ $(document).ready(function(){
             $('header, .goToTop').removeClass('active');
         }
     });
+    // slick.js history-slider
+    $('.history-slider').slick({
+      dots: true,
+      infinite: false,
+      speed: 100,
+      slidesToShow: 4,
+      slidesToScroll: 3,
+    });
 });
